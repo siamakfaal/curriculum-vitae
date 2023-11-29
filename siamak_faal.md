@@ -1,8 +1,4 @@
-## name
-Siamak Faal
-
-## title
-Ph.D.
+## Siamak Faal, Ph.D.
 
 ## status
 US Permanent Resident
