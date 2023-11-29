@@ -13,7 +13,7 @@ US Permanent Resident
 - **location:** Worcester, MA
 
 ## profession
-Applied Scientist
+Applied Scientist / Research Scientist
 
 ## summary
 Highly motivated applied scientist with demonstrated success in developing and implementing technologies and solutions in robotics, mechatronics, control, and optimization. Expert at design and implementation of novel algorithms to a variety of advanced robotic and mechatronic systems. Proficient in orchestrating teams to prototype, build, test, and maintain hardware and software solutions. Passionate about conducting comprehensive research in collaborative environments.
