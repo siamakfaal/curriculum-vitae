@@ -1,5 +1,8 @@
 name: Create Documents
-on: [push]
+on:
+  push:
+    paths:
+      - 'siamak_faal.md'
 
 jobs:
   build:
@@ -17,10 +20,6 @@ jobs:
       - name: Generate PDF
         run: pandoc siamak_faal.md -o cv/siamak_faal.pdf
 
-      # - uses: actions/upload-artifact@v3
-      #   with:
-      #     name: siamak_faal_word_doc
-      #     path: siamak_faal.docx
       - uses: actions/upload-artifact@v3
         with:
           name: siamak_faal_cv
