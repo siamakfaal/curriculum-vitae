@@ -2,7 +2,7 @@ name: Create Documents
 on:
   push:
     paths:
-      - '*_cv.md'
+      - '*.md'
 
 jobs:
   build:
@@ -15,9 +15,9 @@ jobs:
       - name: Install libraries
         run: sudo apt-get install -y pandoc texlive
       - name: Generate Word doc
-        run: pandoc ${{ env.PERSON }}_cv.md -o ${{ env.PERSON }}_cv.docx
+        run: pandoc ${{ env.PERSON }}.md -o ${{ env.PERSON }}.docx
       - name: Generate PDF
-        run: pandoc ${{ env.PERSON }}_cv.md -o ${{ env.PERSON }}_cv.pdf
+        run: pandoc ${{ env.PERSON }}.md -o ${{ env.PERSON }}.pdf
 
       # Step to configure git user
       - name: Configure Git
@@ -28,6 +28,6 @@ jobs:
       # Step to commit and push the generated files
       - name: Commit and Push
         run: |
-          git add ${{ env.PERSON }}_cv.pdf ${{ env.PERSON }}_cv.docx
+          git add ${{ env.PERSON }}.pdf ${{ env.PERSON }}.docx
           git commit -m "Update CV documents for ${{ env.PERSON }}"
           git push
