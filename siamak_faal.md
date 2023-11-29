@@ -3,7 +3,7 @@
 ## status
 US Permanent Resident
 
-## contact
+## Contact
 - siamak.faal@gmail.com
 - Worcester, MA
 
