@@ -34,7 +34,7 @@ Highly motivated applied scientist with demonstrated success in developing and i
 ## technical_proficiency
 - **programming:** C, C++, Python, MATLAB, JavaScript, GO, PHP, BASH
 - **scientific_computing:** MATLAB, SciPy, NumPy, CUDA, OpenCL
-- **embedded_systems:** RTOS, 'Embedded C', 'Embedded Python', 'Altium Designer', 'Proteus Design Suite'
+- **embedded_systems:** RTOS, Embedded C, 'Embedded Python', 'Altium Designer', 'Proteus Design Suite'
 - **robotics:** ['ROS', 'Simscape Multibody', 'MuJoCo', 'Gazebo']
 - **ml_dl_cv:** ['MATLAB', 'OpenCV (Python & C++)', 'PyTorch', 'TensorFlow']
 - **cad:** ['SolidWorks', 'AutoCAD', 'Creo']
