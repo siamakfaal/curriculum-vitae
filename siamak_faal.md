@@ -4,9 +4,8 @@
 US Permanent Resident
 
 ## contact
-- **email:** siamak.faal@gmail.com
-- **phone:** 508-410-1832
-- **location:** Worcester, MA
+- siamak.faal@gmail.com
+- Worcester, MA
 
 ## profession
 Applied Scientist / Research Scientist in Robotics
