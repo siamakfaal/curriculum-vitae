@@ -17,7 +17,7 @@ jobs:
       - name: TEST
         run: |
           git status -uall
-          git git remote show origin
+          git remote show origin
           echo "Hello World" >> test.txt
           git add test.txt
           git push origin
