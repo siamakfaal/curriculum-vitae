@@ -32,8 +32,8 @@ Highly motivated applied scientist with demonstrated success in developing and i
 - Systems Engineering
 
 ## technical_proficiency
-- **programming:** ['C', 'C++', 'Python', 'MATLAB', 'JavaScript', 'GO', 'PHP', 'BASH']
-- **scientific_computing:** ['MATLAB', 'SciPy', 'NumPy', 'CUDA', 'OpenCL']
+- **programming:** C, C++, Python, MATLAB, JavaScript, GO, PHP, BASH
+- **scientific_computing:** MATLAB, SciPy, NumPy, CUDA, OpenCL
 - **embedded_systems:** ['RTOS', 'Embedded C', 'Embedded Python', 'Altium Designer', 'Proteus Design Suite']
 - **robotics:** ['ROS', 'Simscape Multibody', 'MuJoCo', 'Gazebo']
 - **ml_dl_cv:** ['MATLAB', 'OpenCV (Python & C++)', 'PyTorch', 'TensorFlow']
