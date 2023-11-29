@@ -39,4 +39,4 @@ jobs:
       #   run: |
       #     git add ${{ env.PERSON }}.pdf ${{ env.PERSON }}.docx
       #     git commit -m "Update CV documents for ${{ env.PERSON }}"
-          git push
+          # git push
