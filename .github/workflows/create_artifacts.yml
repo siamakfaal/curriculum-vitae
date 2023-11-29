@@ -10,10 +10,18 @@ jobs:
       - name: Install libraries
         run: |
           sudo apt-get install pandoc
+          sudo apt-get install texlive
+          mkdir cv
       - name: Generate Word doc
-        run: pandoc siamak_faal.md -o siamak_faal.docx
+        run: pandoc siamak_faal.md -o cv/siamak_faal.docx
+      - name: Generate PDF
+        run: pandoc siamak_faal.md -o cv/siamak_faal.pdf
 
+      # - uses: actions/upload-artifact@v3
+      #   with:
+      #     name: siamak_faal_word_doc
+      #     path: siamak_faal.docx
       - uses: actions/upload-artifact@v3
         with:
-          name: siamak_faal_word_doc
-          path: siamak_faal.docx
+          name: siamak_faal_cv
+          path: cv
