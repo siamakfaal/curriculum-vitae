@@ -17,7 +17,7 @@ Highly motivated applied scientist with demonstrated success in developing and i
 ## education
 - Ph.D. in Robotics Engineering, 'institution': 'Worcester Polytechnic Institute, MA', 'year': 2018
 - Master of Science in Applied Mathematics', 'institution': 'Worcester Polytechnic Institute, MA', 'year': 2019
-- {'degree': 'Master of Science in Mechatronics', 'institution': 'Sharif University of Technology, Iran', 'year': 2012}
+- Master of Science in Mechatronics', 'institution': 'Sharif University of Technology, Iran', 'year': 2012
 - {'degree': 'Bachelor of Science in Mechanical Engineering', 'institution': 'Sharif University of Technology, Iran', 'year': 2009}
 
 ## expertise
