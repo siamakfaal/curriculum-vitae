@@ -2,25 +2,32 @@ name: Create Documents
 on:
   push:
     paths:
-      - 'siamak_faal.md'
+      - '*_cv.md'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      PERSON: siamak_faal  # Who's CV is this?
 
     steps:
       - uses: actions/checkout@v4
       - name: Install libraries
-        run: |
-          sudo apt-get install pandoc
-          sudo apt-get install texlive
-          mkdir cv
+        run: sudo apt-get install -y pandoc texlive
       - name: Generate Word doc
-        run: pandoc siamak_faal.md -o cv/siamak_faal.docx
+        run: pandoc ${{ env.PERSON }}_cv.md -o ${{ env.PERSON }}_cv.docx
       - name: Generate PDF
-        run: pandoc siamak_faal.md -o cv/siamak_faal.pdf
+        run: pandoc ${{ env.PERSON }}_cv.md -o ${{ env.PERSON }}_cv.pdf
 
-      - uses: actions/upload-artifact@v3
-        with:
-          name: siamak_faal_cv
-          path: cv
+      # Step to configure git user
+      - name: Configure Git
+        run: |
+          git config --global user.email ${{ secrets.GIT_USER_EMAIL }}
+          git config --global user.name ${{ secrets.GIT_USER_NAME }}
+
+      # Step to commit and push the generated files
+      - name: Commit and Push
+        run: |
+          git add ${{ env.PERSON }}_cv.pdf ${{ env.PERSON }}_cv.docx
+          git commit -m "Update CV documents for ${{ env.PERSON }}"
+          git push
