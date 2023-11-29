@@ -7,5 +7,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Run a one-line script
-        run: echo Hello from Action!
+      - name: Install libraries
+        run: |
+          sudo apt-get install pandoc
+          echo "Done!"
