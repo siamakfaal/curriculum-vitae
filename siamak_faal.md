@@ -4,14 +4,10 @@
 
 Highly motivated applied scientist with demonstrated success in developing and implementing technologies and solutions in robotics, mechatronics, control, and optimization. Expert at design and implementation of novel algorithms to variety of advanced robotic and mechatronic systems. Proficient in orchestrating teams to prototype, build, test, and maintain hardware and software solutions. Passionate about conducting comprehensive research in collaborative environments.
 
-##Education
-
+## Education
 - Ph.D. in Robotics Engineering | Worcester Polytechnic Institute, MA, 2018
-
 - Master of Science in Applied Mathematics | Worcester Polytechnic Institute, MA, 2019
-
 - Master of Science in Mechatronics | Sharif University of Technology, Iran, 2012
-
 - Bachelor of Science in Mechanical Engineering | Sharif University of Technology, Iran, 2009
 
 ## Areas of Expertise
@@ -25,7 +21,7 @@ Highly motivated applied scientist with demonstrated success in developing and i
 - Systems Engineering
 
 
-##Technical Proficiency
+## Technical Proficiency
 **Programming** C; C++; Python; MATLAB; JavaScript; GO; PHP; BASH;
 **Scientific Computing**	MATLAB; SciPy; NumPy; CUDA; OpenCL;
 **Embedded Systems**	RTOS; Embedded C; Embedded Python; Altium Designer; Proteus Design Suite;
@@ -34,8 +30,7 @@ Highly motivated applied scientist with demonstrated success in developing and i
 **Computer Aided Design (CAD)**	SolidWorks; AutoCAD; Creo; 
 **Markup Language**	TeX; LaTeX; HTML; CSS;
 
-##Professional Experience
-
+## Professional Experience
 ### Applied Scientist, Kodama, CA,	2023
 Designing and implementing motion planning algorithms for autonomous forestry machinery. Creating models, performing simulations and data analysis, and providing optimized solutions for various tasks and assignments involved in forestry.
 
@@ -45,13 +40,11 @@ Formulated and implemented solutions to problems in motion planning, optimal sto
 
 ### Computational Scientist, Worcester Polytechnic Institute, MA,	2019 – 2022
 Managed a diverse team of engineers and artists on creating and integrating interactive learning experiences for various courses in ME, ECE, CS, MA and PH. Guided faculty and graduate students on the development of simulations and computational approaches to support institute’s multifaceted research. 
-
 - Developed a remote code editor and compiler with a full API support, embeddable in Canvas, to provide interactive examples for languages such as C++, HTML, LaTeX, Octave, and Python.  
 - Initiated and supervised the development of asynchronous online software trainings and automated certifications.
 
 ### Adjunct Professor, Worcester Polytechnic Institute, MA,	2019 – 2022
 Planed, organized, and delivered engaging graduate and undergraduate lectures on Control, Robotics, AI, Machine Learning, Differential Equations, Linear Algebra, and Calculus. Created supplementary materials and volunteered extra hours to support underperforming learners towards achieving desired grades.
-
 - Coordinated faculty to redesign course material, delivery methods and software applications used for the Calculus labs that led to %72 increase in student engagement and mastery of the subject (reflect through grades and reviews).
 - Customized course materials with engaging real-world examples to encourage project-based learning.
 
