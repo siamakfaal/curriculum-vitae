@@ -1,6 +1,6 @@
 # Siamak Faal
 
-## Robotics EApplied Scientist
+## Robotics Engineer and Scientist
 
 Highly motivated applied scientist with demonstrated success in developing and implementing technologies and solutions in robotics, mechatronics, control, and optimization. Expert at design and implementation of novel algorithms to variety of advanced robotic and mechatronic systems. Proficient in orchestrating teams to prototype, build, test, and maintain hardware and software solutions. Passionate about conducting comprehensive research in collaborative environments.
 
